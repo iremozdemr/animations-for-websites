@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    background-color: cornsilk;
 }
 
-.container{
+.container-flex{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
 }
 
 .photo img{
     width: 300px;
     height: auto;
+    margin: 50px;
+}
+
+h2{
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
